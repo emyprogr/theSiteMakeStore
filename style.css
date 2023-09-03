@@ -1,0 +1,61 @@
+body {
+    background-color: #feecfb;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a:link {
+    color: rgb(215, 111, 160);
+}
+
+.banner {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    justify-content: center;
+    /* Centraliza o banner horizontalmente */
+    border-radius: 20px;
+}
+
+.p1-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os elementos quebrem para a próxima linha */
+    margin-top: 20px;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    /* Altera a direção para coluna para empilhar imagem e texto */
+    align-items: center;
+    /* Alinha os itens verticalmente no centro */
+    margin: 0 10px 20px;
+    /* Adiciona espaçamento em todas as direções */
+}
+
+.p1 img {
+    width: auto;
+    /* Redimensiona a imagem para o tamanho real */
+    height: auto;
+    max-width: 100%;
+    /* Garante que a imagem não exceda o contêiner */
+    max-height: 100%;
+    border: 2px solid rgb(215, 111, 160);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* Adiciona espaço entre a imagem e o texto */
+    margin-top: 30px;
+}
